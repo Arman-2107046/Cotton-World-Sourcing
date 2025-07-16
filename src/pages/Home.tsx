@@ -79,29 +79,6 @@ const Home = () => {
           >
             Trusted Apparel Exporter{" "}
           </motion.p>
-
-          <motion.a
-            href="#about"
-            className="relative inline-flex items-center gap-3 px-8 py-3 mt-10 text-sm font-semibold tracking-wider text-[#211F26] uppercase transition duration-300 border-2 border-white rounded-full hover:bg-white hover:text-black group"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 1, delay: 1 }}
-          >
-            <span>Discover More</span>
-            <svg
-              className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M9 5l7 7-7 7"
-              />
-            </svg>
-          </motion.a>
         </motion.div>
       </section>
 
@@ -111,3 +88,26 @@ const Home = () => {
 };
 
 export default Home;
+
+// <motion.a
+//   href="#about"
+//   className="relative inline-flex items-center gap-3 px-8 py-3 mt-10 text-sm font-semibold tracking-wider text-[#211F26] uppercase transition duration-300 border-2 border-white rounded-full hover:bg-white hover:text-black group"
+//   initial={{ opacity: 0 }}
+//   animate={{ opacity: 1 }}
+//   transition={{ duration: 1, delay: 1 }}
+// >
+//   <span>Discover More</span>
+//   <svg
+//     className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1"
+//     fill="none"
+//     stroke="currentColor"
+//     strokeWidth="2"
+//     viewBox="0 0 24 24"
+//   >
+//     <path
+//       strokeLinecap="round"
+//       strokeLinejoin="round"
+//       d="M9 5l7 7-7 7"
+//     />
+//   </svg>
+// </motion.a>
