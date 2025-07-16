@@ -41,7 +41,7 @@ const Home = () => {
 
       <Navbar />
 
-      <section className="relative h-[90vh] overflow-hidden text-[#60646C] bg-slate-200 font-calistoga">
+      <section className="relative h-[90vh] overflow-hidden text-[#60646C] bg-slate-200 font-dmSerif">
         {/* Background Image */}
         <div
           className="absolute inset-0 bg-cover bg-center brightness-[0.4]"
@@ -55,13 +55,13 @@ const Home = () => {
 
         {/* Hero Content */}
         <motion.div
-          className="relative z-10 flex flex-col items-center justify-center h-full px-6 text-center"
+          className="relative z-10 flex flex-col items-center justify-center h-full px-6 text-center font-dm"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1.2 }}
         >
           <motion.h1
-            className="space-y-1 text-4xl font-bold sm:text-6xl lg:text-7xl"
+            className="space-y-1 text-4xl sm:text-6xl lg:text-7xl"
             initial={{ y: 50, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 1, delay: 0.3 }}
